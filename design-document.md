@@ -17,7 +17,7 @@
     - These would be stored on the `Job` class because these attributes are only relevant to the attributes related to jobs.
 
 3. It was noted that the job offers hold the same attributes as the current job, so it made the most sense for me to create a `Job` class to hold all of that information.
-    - Orignally, I wanted to use a boolean to distinguish between whether a job object represents the current job, or a job offer.
+    - Originally, I wanted to use a boolean to distinguish between whether a job object represents the current job, or a job offer.
     
     - The app needs to have the ability to compare jobs, and for that to happen, the system needs to be able to find both quickly. While it would work for smaller sytems, iterating over multiple jobs to find the only true boolean would be inefficent. So, having the system torse the separately on the `Job Comparing App` would be helpful.
     
