@@ -36,10 +36,10 @@
 7. The user interface will be planned out in a future wireframe, but for responsiveness, I tried to consider performance when making the UML class diagram.
      - Removing the boolean may help to eliminate time to identify the current job.
        
-     - I also tried to ensure that there were no major dependecies, and that every class has their own responsibility.
+     - I also tried to ensure that there were no major dependencies, and that every class has their own responsibility.
         -   The `Job Comparing App` class should be tasked with determining whether a job is an offer or current. It will need to reference the `Comparison Settings` and `Job` class to determine the ranks for the jobs. This could be considered a dependency.
           
-        -   The `Job` class will make sure that all the attributes pertaining to it are stored and calculated correctly. This will be where the score is derived. Saving and canceling created/edited jobs methods will also be stored here. It does not have any dependencies from other classes, but some of the derived attributes in its own class are dependent on each other. This should not be an issue because it has accesss to everything it needs to derive them.
+        -   The `Job` class will make sure that all the attributes pertaining to it are stored and calculated correctly. This will be where the score is derived. Saving and canceling created/edited jobs methods will also be stored here. It does not have any dependencies from other classes, but some of the derived attributes in its own class are dependent on each other. This should not be an issue because it has access to everything it needs to derive them.
 
         -   `Comparison Settings` will only hold the user's valued preference and does not have any dependecies from other classes or itself.
 
