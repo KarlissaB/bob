@@ -4,7 +4,7 @@
     - I created the `Job Comparing App` class to represent the entry point of the system.
     - This will also be where key operations and functionality will be stored.
     
-2. The current job details that may be entered should be stored, so I beleived that it would be best to store them as attributes.
+2. The current job details that may be entered should be stored, so I believed that it would be best to store them as attributes. The derived attirbutes are shown on the UML diagram, but will not be stored.
     - **Text Atrributes:** `Title`, `Company`, `Location`
     - **Float Attributes:** `Cost of Living`, `Yearly Salary`, `Yearly Bonus`, `Gym Reimbursement`, `Pet Insurance`, `Adjusted Yearly Salary (Derived)`, `Adjusted Yearly Bonus (Derived)`, `Adjusted Pet Insurance (Derived)`
       - I wanted any form of monetary value to be stored as a float/decimal to be more accurate in calculations.
@@ -13,7 +13,7 @@
       - These are integers because days cannot be fractioned.
     
     - It is important to note that `Pet Insurance` is calculated with the Yearly Salary Adjusted for cost of living (AYS). Therefore, I realized that multiple derived methods will need to be created as these are attributes that would only be used during calculations and not stored (derived).
-    - `calculateAYS()` and `calculateAYB()` are methods that will need calculations to normalize the attributes. Then `calculatePet()` will call `calculateAYB()` to get the correct `Pet Insurance` amount.
+    - `calculateAYS()` and `calculateAYB()` are methods that will need calculations to normalize the attributes. Then `calculatePet()` will call `calculateAYS()` to get the correct `Pet Insurance` amount.
     - These would be stored on the `Job` class because these attributes are only relevant to the attributes related to jobs.
 
 3. It was noted that the job offers hold the same attributes as the current job, so it made the most sense for me to create a `Job` class to hold all of that information.
@@ -28,11 +28,13 @@
     - The `saveJob` and `cancelJob` are only relevant to the `Job` class, so they do not need to be stored with the entering and editing job tasks on `Job Comparing App`.
 
 4. I understood the comparison weights as how much a user prioritize certain job charateristics (attributes). I do not think that each job should have their own priority settings, so I created a `Comparison setting` class to hold this information. Also, it has it's own class because I believe that it will be working independetly of the job and the system.
+    - The initial attribute values will all be set to 1 at the start of the program.
+      
     - The `saveSettings()` and the `cancelSettings()` tasks will be stored here with the method to set each of the integer attributes. This is because they are only relevant to this class, and the `Job Comparing App` class could reference this information.
     
-5. As previously stated, by having the current job and job offers (stored as a list) on the `Job Comparing App` class, it will be able to look through all jobs, instead of operating on the context of one at a time.
+6. As previously stated, by having the current job and job offers (stored as a list) on the `Job Comparing App` class, it will be able to look through all jobs, instead of operating on the context of one at a time.
    
-6. The `Job` class will calculate the individual score of each job, and then the `Job Comparing App` will read those values and sort the jobs in a ranked order. `calculateJobScore` will run the calculation provided by the assignment to find the weighted average.
+7. The `Job` class will calculate the individual score of each job, and then the `Job Comparing App` will read those values and sort the jobs in a ranked order. `calculateJobScore` will run the calculation provided by the assignment to find the weighted average.
      - **Formula:** `JS = AYS + AYB + (MPL * AYS / 260) + (PCH * AYS / 260) + GR + (PET + (AYS *.02))`
 
 8. The user interface will be planned out in a future wireframe, but for responsiveness, I tried to consider performance when making the UML class diagram.
