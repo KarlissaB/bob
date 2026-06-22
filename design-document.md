@@ -25,4 +25,23 @@
    
     - The enter and edit task maybe consolidated in future refinements. I have two separate methods for creating and editing different types of jobs because for editing, it needs context of the job already stored. I might be able to implement logic to make the parameters optional.
 
-4. 
+    - The `saveJob` and `cancelJob` are only relevant to the `Job` class, so they do not need to be stored with the entering and editing job tasks on `Job Comparing App`.
+
+4. I understood the comparison weights as how much a user prioritize certain job charateristics (attributes). I do not think that each job should have their own priority settings, so I created a `Comparison setting` class to hold this information. Also, it has it's own class because I believe that it will be working independetly of the job and the system.
+    - The `saveSettings()` and the `cancelSettings()` tasks will be stored here with the method to set each of the integer attributes. This is because they are only relevant to this class, and the `Job Comparing App` class could reference this information.
+    
+5 and 6. As previously stated, by having the current job and job offers (stored as a list) on the `Job Comparing App` class, it will be able to look through all jobs, instead of operating on the context of one at a time.
+    - The `Job` class will calculate the individual score of each job, and then the `Job Comparing App` will read those values and sort the jobs in a ranked order. `calculateJobScore` will run the calculation provided by the assignment to find the weighted average.
+
+7. The user interface will be planned out in a future wireframe, but for responsiveness, I tried to consider performance when making the UML class diagram.
+     - Removing the boolean may help to eliminate time to identify the current job.
+       
+     - I also tried to ensure that there were no major dependecies, and that every class has their own responsibility.
+        -   The `Job Comparing App` class should be tasked with determining whether a job is an offer or current. It will need to reference the `Comparison Settings` and `Job` class to determine the ranks for the jobs. This could be considered a dependency.
+          
+        -   The `Job` class will make sure that all the attributes pertaining to it are stored and calculated correctly. This will be where the score is derived. Saving and canceling created/edited jobs methods will also be stored here. It does not have any dependencies from other classes, but some of the derived attributes in its own class are dependent on each other. This should not be an issue because it has accesss to everything it needs to derive them.
+
+        -   `Comparison Settings` will only hold the user's valued preference and does not have any dependecies from other classes or itself.
+
+8. `The Job Comparing App` represents the entry point to the overall system.
+       
