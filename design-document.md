@@ -30,10 +30,12 @@
 4. I understood the comparison weights as how much a user prioritize certain job charateristics (attributes). I do not think that each job should have their own priority settings, so I created a `Comparison setting` class to hold this information. Also, it has it's own class because I believe that it will be working independetly of the job and the system.
     - The `saveSettings()` and the `cancelSettings()` tasks will be stored here with the method to set each of the integer attributes. This is because they are only relevant to this class, and the `Job Comparing App` class could reference this information.
     
-5 and 6. As previously stated, by having the current job and job offers (stored as a list) on the `Job Comparing App` class, it will be able to look through all jobs, instead of operating on the context of one at a time.
-    - The `Job` class will calculate the individual score of each job, and then the `Job Comparing App` will read those values and sort the jobs in a ranked order. `calculateJobScore` will run the calculation provided by the assignment to find the weighted average.
+5. As previously stated, by having the current job and job offers (stored as a list) on the `Job Comparing App` class, it will be able to look through all jobs, instead of operating on the context of one at a time.
+   
+6. The `Job` class will calculate the individual score of each job, and then the `Job Comparing App` will read those values and sort the jobs in a ranked order. `calculateJobScore` will run the calculation provided by the assignment to find the weighted average.
+     - **Formula:** `JS = AYS + AYB + (MPL * AYS / 260) + (PCH * AYS / 260) + GR + (PET + (AYS *.02))`
 
-7. The user interface will be planned out in a future wireframe, but for responsiveness, I tried to consider performance when making the UML class diagram.
+8. The user interface will be planned out in a future wireframe, but for responsiveness, I tried to consider performance when making the UML class diagram.
      - Removing the boolean may help to eliminate time to identify the current job.
        
      - I also tried to ensure that there were no major dependencies, and that every class has their own responsibility.
@@ -43,5 +45,5 @@
 
         -   `Comparison Settings` will only hold the user's valued preference and does not have any dependecies from other classes or itself.
 
-8. `The Job Comparing App` represents the entry point to the overall system.
+9. `The Job Comparing App` represents the entry point to the overall system.
        
