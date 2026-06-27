@@ -33,10 +33,24 @@ To prevent team members from being blocked when functionally testing later, we w
 - **Entrance Criteria:** A completed, agreed upon wireframe, completed environmental setup, and OM changes
 - **Exit Criteria:** The necessary pages must be created and navigable with the required input fields and buttons present on each page. This must be reviewed by another team member to confirm all of the needed fields are there with reference to the the wireframe.
 
+### Input Validation
+When entering comparison setting values, the fields can only hold integers between 0 and 9. When entering job details, parental leave, personal holidays, gym reimbursement, and pet insurance also have numeric input constraints. Logic must be written to ensure that out of range values cannot be inputed into the system. Testing will need to be completed to make sure that validation logic was implemented correctly. This will follow the guidance provided in the testing plan document.
+- **Entrance Criteria:** Basic UI implementation, OM implementation, and data persistance must be completed.
+- **Exit Criteria:** The job entry and comparsion setting input fields prevent non-valid numbers from being allowed, and there should be unit tests to verify this.
+
+### Derived Value Calculations
+### Job Ranking + Comparison Logic
+### Ranked List UI + Comparison UI
+### UI Refinement
+### End to End Testing
+
 ## 3 Team
 
 *Describe the team and their roles (include at least 4 roles, there may be more roles than there are team members)*
 
 - Team: Aditya Shiroya, Aneta Obrochta, Christian Molina, Karlissa Brown
 - *Roles, with a short description of each role*
+- UI Developer
+- Backend Developer
+- 
 - *Table showing which team member(s) has which role(s)*
