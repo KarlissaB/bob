@@ -39,8 +39,17 @@ When entering comparison setting values, the fields can only hold integers betwe
 - **Exit Criteria:** The job entry and comparsion setting input fields prevent non-valid numbers from being allowed, and there should be unit tests to verify this.
 
 ### Derived Value Calculations
-### Job Ranking + Comparison Logic
-### Ranked List UI + Comparison UI
+We need to derive values for the adjusted yearly salary (AYS) and adjusted yearly bonus (AYB) based off of cost of living. Then, the adjusted yearly salary will be used to help calculate pet insurance. One team member will build these methods to produce accurate values, and the ensure that these methods are tested with reference to the testing plan.
+- **Entrance Criteria:** The OM implementation must be completed.
+- **Exit Criteria:** The AYS, AYB, and pet insurance values will be accurately calculated with verification from unit tests.
+
+### Job Ranking UI and Logic
+Using the values from the comparison setting the jobs provided, a ranked list of all jobs should be provided. This will rely on calculating the job score using the formula provided in `Assignment 5`. While this can be verified in a unit test, and terminal area, we will also implement a basic UI. This UI will show the what the rankings will look like to the user. It is not expected to fully be completed in this activity.
+- **Entrance Criteria:** The wireframe, OM changes, derived value calculations, comparison setting logic, and job entry logic must be completed.
+- **Exit Criteria:** A basic view of a list of jobs, desceding, will be accurately show on the UI. The logic to calculate these scores will also be unit tested based on the testing plan.
+
+### Job Comparison UI and Logic
+W
 ### UI Refinement
 ### End to End Testing
 
