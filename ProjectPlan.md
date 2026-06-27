@@ -1,6 +1,6 @@
 # Project Plan
 
-**Authors**: Team 185 (Christian Molina, Aneta Obrochta, Aditya Shiroya, Karlissa Brown)
+**Authors**: Team 185 (Aditya Shiroya, Aneta Obrochta, Christian Molina, Karlissa Brown)
 
 ## 1 Introduction
 Our product is a single-user app to help users make informed career decsions by comparing job offers with weighted factors such as benfits, salary, and cost of living.
@@ -8,6 +8,12 @@ Our product is a single-user app to help users make informed career decsions by 
 ## 2 Process Description
 
 *Project development process description as a set of activities; for each development process activity, provide the following:*
+Our project development activies are as follows:
+
+### Requirment Refinement
+Test paragragh
+- Entrance Criteria
+- Exit Criteria
 
 - *Activity name (verb or verb phrase)*
 - *Activity description (concise paragraph)*
