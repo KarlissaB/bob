@@ -1,12 +1,9 @@
 # Project Plan
 
-*This is the template for your project plan. The parts in italics are concise explanations of what should go in the corresponding sections and should not appear in the final document.*
-
-**Author**: Team 185 (Christian Molina, Aneta Obrochta, Aditya Shiroya, Karlissa Brown)
+**Authors**: Team 185 (Christian Molina, Aneta Obrochta, Aditya Shiroya, Karlissa Brown)
 
 ## 1 Introduction
-
-*Here you introduce the product. Keep this  clean and simple, one or two sentences at most.*
+Our product is a single-user app to help users make informed career decsions by comparing job offers with weighted factors such as benfits, salary, and cost of living.
 
 ## 2 Process Description
 
