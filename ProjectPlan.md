@@ -18,6 +18,12 @@ A wireframe will be created to show a full walkthrough of the app, and how the u
 - **Entrance Criteria:** An adequate understanding of the project requirments from each member.
 - **Exit Criteria:** A wireframe showing the full navigational flow of the app, which must be intuitive, easy to use, and be reviewed and approved by the team.
 
+### Environment Setup
+Since all team members completed prior coursework activities, it is assumed that individual software setup (Andriod Studio, Java, Gradle, Git) has been completed. dDruing this activity, one member will create the project, and make the inital commit to our repository, so that we all have access to it. We will also decide on development tracking tools to be used throguhout implementation in this stage.
+- **Entrance Criteria:** Every team member's development enviroments setup from previous assignments.
+- **Exit Criteria:** An intial commit with the app has been made to our Repo, and development tracking methods have been agreed upon,
+
+
 ## 3 Team
 
 *Describe the team and their roles (include at least 4 roles, there may be more roles than there are team members)*
