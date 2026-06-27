@@ -1,6 +1,6 @@
 # Project Plan
 
-**Author**: Team 185
+**Author**: Team 185 (Aditya Shiroya, Aneta Obrochta, Christian Molina, Karlissa Brown)
 
 ## 1 Introduction
 Our product is a single-user app to help users make informed career decsions by comparing job offers with weighted factors such as benfits, salary, and cost of living.
@@ -60,7 +60,7 @@ Once there is a basic implementation of all of the UI, we will go back and make 
 
 
 ## 3 Team
-**Team:** Aditya Shiroya, Aneta Obrochta, Christian Molina, Karlissa Brown
+**Team 185:** Aditya Shiroya, Aneta Obrochta, Christian Molina, Karlissa Brown
 
 ### Roles
 - **Team Coordinator:** Oversees development progress, helps identify blockers, ensures that requirements are followed, and helps plan on what can be worked on given current state of project.
