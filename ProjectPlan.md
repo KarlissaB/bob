@@ -19,10 +19,14 @@ A wireframe will be created to show a full walkthrough of the app, and how the u
 - **Exit Criteria:** A wireframe showing the full navigational flow of the app, which must be intuitive, easy to use, and be reviewed and approved by the team.
 
 ### Environment Setup
-Since all team members completed prior coursework activities, it is assumed that individual software setup (Andriod Studio, Java, Gradle, Git) has been completed. dDruing this activity, one member will create the project, and make the inital commit to our repository, so that we all have access to it. We will also decide on development tracking tools to be used throguhout implementation in this stage.
+Since all team members completed prior coursework activities, it is assumed that individual software setup (Andriod Studio, Java, Gradle, Git) has been completed. During this activity, one member will create the project, and make the inital commit to our repository, so that we all have access to it. We will also decide on development tracking tools to be used throguhout implementation in this stage.
 - **Entrance Criteria:** Every team member's development enviroments setup from previous assignments.
-- **Exit Criteria:** An intial commit with the app has been made to our Repo, and development tracking methods have been agreed upon,
+- **Exit Criteria:** An intial commit with the app has been made to our Repo, and development tracking methods have been agreed upon.
 
+### Object Model Implementation
+The team will setup all of the classes and thier attributes, so that progress is not hindered by class dependencies during later activities. It will be broken down into 3 sections: the top-level class (point of entry) class, the classes relevant to the job, and the comparison settings class. Essentially, we will be implementing our UML diagram so that we have access to all objects needs to work on the later parts of the program without as many dependencies.
+- **Entrance Criteria:** A completed, agreed upon UML diagram, completed environmental setup, and an intial commit
+- **Exit Criteria:** All classes, attributes, and relationships from the UML diagram, must be implemeneted in the project correctly, and pushed to the team repository. These changes must be verfied as correct by the team before moving forward.
 
 ## 3 Team
 
