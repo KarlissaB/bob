@@ -63,8 +63,18 @@ Once there is a basic implementation of all of the UI, we will go back and make 
 
 *Describe the team and their roles (include at least 4 roles, there may be more roles than there are team members)*
 **Team:** Aditya Shiroya, Aneta Obrochta, Christian Molina, Karlissa Brown
-- *Roles, with a short description of each role*
-- UI Developer
-- Backend Developer
-- 
-- *Table showing which team member(s) has which role(s)*
+
+### Roles
+- **Team Coordinator:** Oversees development progress, helps identify blockers, ensures that requirements are followed, and helps plan on what can be worked on given current state of project.
+- **Frontend UI Developer:** Facilitates designing the user interface, and will help to implement the UI as the need for it appears
+- **Backend Developer:** Builds the object model, set up the database to store data, and implements logic to compare the jobs.
+- **QA Testing Lead:** Ensures that all there is adequate testing coverage, verifies that the program is working as expected, and will help to report any bugs.
+
+### Team Roles
+
+| Team Member | Role(s) |
+|-------------|---------|
+| Karlissa Brown | Team Coordinator, Backend Developer |
+| Person 2 | Backend Developer |
+| Person 3 | UI/Frontend Developer, QA/Test Lead |
+| Person 4 | UI/Frontend Developer |
