@@ -11,14 +11,9 @@ Our product is a single-user app to help users make informed career decsions by 
 Our project development activies are as follows:
 
 ### Requirment Refinement
-Test paragragh
-- Entrance Criteria
-- Exit Criteria
-
-- *Activity name (verb or verb phrase)*
-- *Activity description (concise paragraph)*
-- *Entrance criteria (inputs needed for the activity)*
-- *Exit criteria (outputs produced by the activity and how you know it has been completed satisfactorily)*
+We will review all requirements and design documents prior to development. This ensures that we will have a sufficient understanding of what the program must do functionally. This will also give us an opportunity to resolve any open questions and inconstencies that may have been missed. We will also review what is required of each role, to ensure that we are ready to begin development.
+- **Entrance Criteria:** All documents from `Group Project Deliverable 1`
+- **Exit Criteria:** Every team member is aligned on interpretation of requirements, any consistencies across documents are resolved, and we have shared understanding of our workflow before implementation begins.
 
 ## 3 Team
 
