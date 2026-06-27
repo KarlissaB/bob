@@ -30,8 +30,8 @@ The team will setup all of the classes and thier attributes, so that progress is
 
 ### Basic UI Implemenation
 To prevent team members from being blocked when functionally testing later, we will create a simple home page, comparison settings, and job entry screens. During this step, we do not need to worry about the overall appearance, but focus on functionality instead. We will ensure that input fields and buttons are present on their designated pages so that the team can focus more on the coding elements in later activites.
-- **Entrance Criteria:** A completed, agreed upon wireframe, completed environmental setup, and an intial commit
-- **Exit Criteria:** The necessary pages must be created to access the home page, enter comparison settings and jobs. It does not have to persist yet, as that will be done during the coding portion. This must be reviewed by another team member to confirm all of the needed fields are there.
+- **Entrance Criteria:** A completed, agreed upon wireframe, completed environmental setup, and OM changes
+- **Exit Criteria:** The necessary pages must be created and navigable with the required input fields and buttons present on each page. This must be reviewed by another team member to confirm all of the needed fields are there with reference to the the wireframe.
 
 ## 3 Team
 
