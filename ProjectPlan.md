@@ -49,15 +49,20 @@ Using the values from the comparison setting the jobs provided, a ranked list of
 - **Exit Criteria:** A basic view of a list of jobs, desceding, will be accurately show on the UI. The logic to calculate these scores will also be unit tested based on the testing plan.
 
 ### Job Comparison UI and Logic
-W
+The user should be able to compare their current job to a job offer. To do so, we need a method to calculate the job score. The job score method will currently built when the job ranking UI logic will be built. The UI should allow for a basic side-by-side comparison of two jobs, after allowing for the selection of them.
+- **Entrance Criteria:** The wireframe, OM changes, data persistance, derived value calculations, comparison setting logic, and job entry logic must be completed.
+- **Exit Criteria:** A basic view of a list of jobs, desceding, will be accurately show on the UI. The logic to calculate these scores will also be unit tested based on the testing plan.
+
 ### UI Refinement
-### End to End Testing
+Once there is a basic implementation of all of the UI, we will go back and make the necessary changes to make the app more appealing and intuitive. We will go back and ensure that the app layout is readable, and has proper descriptions. We will also make sure that the colors and UI design allow for readability, and that the app is easy to navigate.
+- **Entrance Criteria:** The wireframe and basic implementation of every UI page must be completed.
+- **Exit Criteria:** A basic view of a list of jobs, desceding, will be accurately show on the UI. The logic to calculate these scores will also be unit tested based on the testing plan.
+
 
 ## 3 Team
 
 *Describe the team and their roles (include at least 4 roles, there may be more roles than there are team members)*
-
-- Team: Aditya Shiroya, Aneta Obrochta, Christian Molina, Karlissa Brown
+**Team:** Aditya Shiroya, Aneta Obrochta, Christian Molina, Karlissa Brown
 - *Roles, with a short description of each role*
 - UI Developer
 - Backend Developer
