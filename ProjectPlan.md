@@ -70,7 +70,7 @@ Once there is a basic implementation of all of the UI, we will go back and make 
 
 ### Team Roles
 
-| Team Member | Role(s) |
+| Team Member | Roles |
 |-------------|---------|
 | Aditya Shiroya | Backend Developer, QA Tester|
 | Aneta Obrochta | Team Coordinator, Frontend UI Developer, Backend Developer |
